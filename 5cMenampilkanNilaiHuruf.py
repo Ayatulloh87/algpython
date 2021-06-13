@@ -39,4 +39,4 @@ while ulang=="y" or ulang=="Y":
         else:
             pesan=" Masukkan kembali angka nilai antara 0-100"
             print(pesan)
-            print()   
+            print()
