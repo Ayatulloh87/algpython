@@ -32,7 +32,7 @@ while ulang=="y" or ulang=="Y":
             else:               
                 sts=" Kurang Sekali"
             print (sts)
-
+            
             ulang = input(" Ulang program? y/t = ")
             if ulang=="t" or ulang=="T":
                 break
