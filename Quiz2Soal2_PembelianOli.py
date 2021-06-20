@@ -1,7 +1,7 @@
 """
 AYATULLOH AL KURSI/20083000116/2E
 19-06-2021
-SOAL NO. 1 Quiz 2 Exspedisi
+SOAL NO. 1 Quiz 2 Pembelian Oli
 """
 ulang = "y"
 
@@ -60,7 +60,7 @@ while ulang=="y" or ulang=="Y":
         TotalAwalB = TotalAwalA
 
     #TotalBiaya Dengan PPN 1%
-    TotalAkhir = TotalAwalB - TotalAwalB*1/100
+    TotalAkhir = TotalAwalB + TotalAwalB*1/100
 
     #tampilkan Total Biaya
     print(">>>> Total Akhir     = Rp. " + str(TotalAkhir))
